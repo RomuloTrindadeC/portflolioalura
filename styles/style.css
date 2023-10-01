@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 10%;
+    margin: 7.5%;
     gap: 100px;
     align-items: top;
 }
