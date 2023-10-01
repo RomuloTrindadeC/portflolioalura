@@ -41,17 +41,17 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 7.5%;
+    /* esta margem vai ditar a margem entre os links de cabeçalho e o início do parágrafo */
+    margin: 6%;
     gap: 100px;
-    align-items: top;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 750px;
     font-family: 'Krona One', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -75,7 +75,7 @@ body {
 .apresentacao__links {
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 30px;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
@@ -120,7 +120,7 @@ body {
 }
 
 .imagemromulo {
-    width: 40%;
+    width: 25%;
     border-radius: 20px;
     align-self: top;
 }
@@ -159,12 +159,24 @@ body {
     align-items: bottom;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 6%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
     .apresentacao{
         flex-direction: column-reverse;
     }
     .cabecalho {
         justify-content: center;
         align-items: center;
+    }
+    .imagemromulo {
+        width: 50%;
+        place-self: center;
     }
 }
