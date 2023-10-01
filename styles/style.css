@@ -20,7 +20,7 @@ body{
     color: var(--cor-secundaria);
 }
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 3.5% 0% 0% 15%;
 }
 .cabecalho__menu{
     display: flex;
@@ -28,7 +28,7 @@ body{
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -94,6 +94,11 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
+}
+
+.logo {
+    max-height: 25px;
+    align-items: center;
 }
 
 .apresentacao__links__link:hover{
